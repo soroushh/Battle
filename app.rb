@@ -10,10 +10,6 @@ class Battle < Sinatra::Base
     @player_2 = params[:player_2_name]
     erb :player
   end
-
-
-
-
   # start the server if ruby file executed directly
   run! if app_file == $0
 
